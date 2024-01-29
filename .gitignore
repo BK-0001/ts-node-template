@@ -1,0 +1,15 @@
+# npm packages
+node_modules
+
+# build
+build
+
+# environment
+.env*
+!.env.example
+
+# vscode
+.vscode
+
+# test
+coverage
