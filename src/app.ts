@@ -6,7 +6,6 @@ export const app = express();
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
-  throw new CustomError("test", 500);
   res.send("Hello world");
 });
 
